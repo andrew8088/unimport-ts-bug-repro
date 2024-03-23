@@ -8,6 +8,7 @@
     "format": "prettier --write .",
     "test": "vitest",
     "test:all": "pnpm --filter \"./packages/*\" test",
+    "build:all": "pnpm --filter \"./packages/*\" build",
     "prepare": "husky",
     "router": "pnpm --filter router",
     "test-utils": "pnpm --filter test-utils",
@@ -33,7 +34,8 @@
     "eslint-plugin-react": "^7.34.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "unimport": "^3.7.1"
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
