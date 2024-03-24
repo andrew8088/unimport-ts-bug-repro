@@ -18,7 +18,7 @@ There seems to be a bug in the exports auto scan when scanning a TypeScript pack
 
 ## Details
 
-The package we're auto-importing has these three functions:
+The package we're auto-importing has these functions:
 
 ```ts
 export function function1<A, B = string>(a: A, b: B) {
