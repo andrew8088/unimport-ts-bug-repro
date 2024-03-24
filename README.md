@@ -6,7 +6,7 @@ There seems to be a bug in the exports auto scan when scanning a TypeScript pack
 
 ## To Reproduce
 
-- clone this repo
+- clone [this repro repo](https://github.com/andrew8088/unimport-ts-bug-repro)
 - `pnpm i`
 - `cd packages/app`
 - If you want to regenerate the type definition file:
