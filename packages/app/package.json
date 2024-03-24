@@ -5,10 +5,8 @@
   "type": "module",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "vite . -l info",
-    "test": "vitest --typecheck",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "build": "tsc && vite build"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
