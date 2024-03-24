@@ -27,5 +27,5 @@
   "ts-node": {
     "swc": false
   },
-  "include": ["src"]
+  "include": ["src", "./*.d.ts"]
 }
