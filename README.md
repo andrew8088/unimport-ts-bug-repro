@@ -2,7 +2,7 @@
 
 ## Description
 
-There seems to be a bug in the exports auto scan when scanning a TypeScript package in the same monorepo: the generic arguments of exported function are being exported on their own, and then failing to resolve during build.
+There seems to be a bug in the exports auto scan when scanning a TypeScript package in the same monorepo: function arguments and their types are being treated as their own exports, and then (correctly) failing to resolve during build.
 
 ## Steps To Reproduce
 
